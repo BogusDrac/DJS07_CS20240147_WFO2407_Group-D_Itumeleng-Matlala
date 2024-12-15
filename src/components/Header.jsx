@@ -9,7 +9,7 @@ const Header = () => {
             className='header--img'
         />
       <h2 className='header--title'>Meme generator</h2>
-      <h4 className='header-project'>React Course - Project 3</h4>
+      <h4 className='header-project'>React Course</h4>
     </header>
   );
 }

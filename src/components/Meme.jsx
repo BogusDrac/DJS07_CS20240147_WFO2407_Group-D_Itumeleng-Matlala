@@ -15,7 +15,7 @@ const Meme = () => {
       const res = await fetch("https://api.imgflip.com/get_memes")
       const data = await res.json()
       setAllMemes(data.data.memes)
-    }
+     }
     getMemes()
   }, [])
 
